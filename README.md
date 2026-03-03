@@ -39,8 +39,13 @@ Installer PHPUnit dans Docker
     vendor/bin/phpunit
    ```
 
-##
-CI : En cour d'inplémentation 
+## CI
+Les tests ne sont pas executés
 
 ## Linter
-Non implémenté
+    ```bash
+    vendor/bin/phpstan analyse
+    ```
+
+## Commentaire 
+Pour faire fonctionner les tests en base de données, il faut que les faire tourner sur docker, et il y en a un qui ne fonctionne pas.
