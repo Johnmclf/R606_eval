@@ -24,13 +24,20 @@ Regarder le docker-compose pour vous aidez, mais dans l'idéal, il faudrai que l
 - Application : http://localhost:8080
 - PhpMyAdmin : http://localhost:8081
 
-## Tester
+## Tester (Non fonctionnelle)
 Installer PHPUnit dans Docker
    ```bash
     docker exec -it apache_php bash
     composer require --dev phpunit/phpunit:^10.5
    ```
 
+   ```bash
+    docker exec -it apache_php bash
+   ```
+
+   ```bash
+    vendor/bin/phpunit
+   ```
 
 ##
 CI : En cour d'inplémentation 
