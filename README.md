@@ -48,4 +48,6 @@ Les tests ne sont pas executés
     ```
 
 ## Commentaire 
-Pour faire fonctionner les tests en base de données, il faut que les faire tourner sur docker, et il y en a un qui ne fonctionne pas.
+- Pour faire fonctionner les tests en base de données, il faut que les faire tourner sur docker, et il y en a un qui ne fonctionne pas.
+
+- L'organisation des différents fichiers est à revoir, mais j'ai c'était pour débugger les tests, il faudrait mettre dans src/ , ...
