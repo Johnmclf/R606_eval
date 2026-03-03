@@ -1,0 +1,19 @@
+.crimson {
+    color: crimson;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p_rappel {
+    color: crimson;
+    font-weight: bold;
+    border: solid 2px crimson;
+    padding: 5px;
+    width: fit-content;
+}
+
+.td_table {
+    border: solid black 1px;
+}
